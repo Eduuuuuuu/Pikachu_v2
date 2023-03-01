@@ -9,26 +9,26 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr 100px;
     padding: 70px 70px 24px 24px;
-    background-color: #f5cf06;
-    color: #8E4106;
+    background-color: #F5CF06;
     font-family: 'Righteous', cursive;
+    color: #8e4106;
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-    gap: 24px;
+   display: flex;
+   align-items: center;
+   gap: 24px;
 }
 
-.logo__text{
-    font-size: 32px;
-    font-weight: 100;
-}
-
+    .logo__text{
+        font-size: 32px;
+        font-weight: 100;
+    }
+    
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 2fr 1fr; 
 }
 
 .title{
@@ -38,53 +38,53 @@ main{
 }
 
 .title__text{
-    font-size: 20vw;
     color: #fff;
+    font-size: 20vw;
 }
 
 .title__transparent{
     position: absolute;
+    color: #fff5;
     font-size: 27vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
-    color: #fff5;
     z-index: -1;
 }
 
-.description{
-    place-self: end start;
+.info{
+    place-self: end start ;
 }
 
-.description__title{
-font-size: 64px;
+.info__title{
+    font-size: 64px;
 }
 
-.description__text{
+.info__text{
     font-size: 20px;
     width: 500px;
 }
 
 .action{
     place-self: end;
-    background-color: #8E4106;
+    background-color: #8e4106;
     width: 400px;
     height: 100px;
-    color: #fff;
-    font-size: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 48px;
+    color: #fff;
     text-decoration: none;
+
 }
 
 footer{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 }
-
-.pikachu-image{
+.pikachu__img{
     position: absolute;
     top: 50%;
     left: 50%;
